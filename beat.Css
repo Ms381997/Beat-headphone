@@ -1,0 +1,401 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body{
+    background-color: black;
+}
+/* header */
+.header{
+    height: 100vh;
+    width: 100%;
+
+}
+/* nav list */
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+
+.login{
+    margin-right: 20%;
+}
+/* nav logo */
+.nav-logo{
+    margin-bottom: 45%;
+    margin-left: 17%;
+}
+/* nav img */
+.nav-img{
+    margin-left: 10%;
+    margin-top: -25%;
+}
+/* nav list ul */
+.nav-list-ul{
+    display:flex;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    text-align: left;
+    justify-content:space-between;
+    margin-bottom: 45%;
+    
+    
+}
+/* nav list ul li */
+.nav-list-ul-li{
+    display: flex;
+    padding: 10px 30%;
+    margin-right: -30%;
+    gap: 25px;
+    /* justify-content: space-around; */
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+   
+}
+/* anker tag of nav */
+.nav-list-ul-li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+
+}
+/* ankar tag hover */
+.nav-list-ul-li a:hover{
+    color: hsl(0, 0%, 15%);
+    transition: .3s;
+}
+
+/* button  */
+button{
+    display: flex;
+    padding: 10px 20px;
+    margin-right: 20%;
+    gap: 25px;
+    /* justify-content: space-around; */
+}
+
+button{
+    border: none;
+    background-color: hsl(0, 4%, 10%);
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: -1px -1px 0 0 white;
+}
+/* button hover */
+button:hover{
+    color: rgb(61, 59, 59);
+    transition: .3s;
+}
+
+/* after-nav-right */
+.after-nav-right{
+    margin-left: 60%;
+    margin-top: -30%;
+    color: white;
+    
+}
+
+
+/* after-nav-right h1 */
+.after-nav-right h1{
+    font-weight: bold;
+    font-size: 3em;
+   
+}
+/* after-nav-right ul li p */
+.after-nav-right ul li p{
+    margin-right: 40%;
+    
+}
+
+/* social-media */
+.social-media{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* social-media-list */
+.social-media-list{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+/* div ul li */
+div ul li{
+    list-style-type: none;
+}
+/* spec-logo */
+.spec-logo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+/* specs-left */
+.specs-left{
+    color: white;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    
+}
+
+/* bluetooth ,mic ,specs-left-right ,specs-img */
+.bluetooth{
+  
+    margin-left: 20%;
+    display: inline-block;
+}
+
+.mic{
+    margin-left: 20%; 
+}
+
+.specs-left-right{
+    display: flex;
+    margin-left: 20%;
+}
+
+.specs-img{
+    margin-right: 25%;
+    margin-bottom: 20%;
+    justify-content: space-around;
+    
+}
+/* case-logo */
+.case-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* case-left */
+.case-left{
+    display: flex;
+    color: white;
+   margin-left: 20%;
+   margin-right: 20%;
+    
+    text-align: center;
+    justify-content: space-between;
+}
+/* case-right */
+.case-right{
+    text-align: left;
+    margin: 15%;
+    
+}
+
+.mid-div{
+    display: flex;
+    background-color: rgb(54, 53, 53);
+    color: white;
+    margin: 5% 20% 5% 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    justify-content: space-around;
+}
+/* .mid-div-left */
+.mid-div-left{
+    margin-top: 10%;
+    text-align: left;
+}
+
+.mid-div-left h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .mid-button */
+.mid-button{
+    background-color: black;
+}
+
+.mid-button:hover{
+    background-color:rgb(26, 24, 24) ;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.choose-your-style{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+
+/* img 1 */
+.img1{
+    position: relative;
+    background-color:rgb(26, 24, 24)  ;
+    /* margin-left: 25%;
+    margin-right: 58%; */
+    justify-content: space-between;
+    color: white;
+    margin-top: 20%;
+    padding-bottom: -20%;
+}
+ 
+.img1 img{
+    margin-top: -70%;
+}
+
+/* img 2 */
+.img2{
+    position: relative;
+    background-color:rgb(26, 24, 24)  ;
+    /* margin-left: 25%;
+    margin-right: 58%; */
+    justify-content: space-between;
+    color: white;
+    margin-top: 20%;
+    padding-bottom: -20%;
+}
+ 
+.img2 img{
+    margin-top: -70%;
+}
+
+/* img1-2 */
+.img1-2{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-between;
+    color: white;
+    margin-top: 5%;
+}
+
+/* img 3 */
+.img3{
+    position: relative;
+    background-color:rgb(26, 24, 24)  ;
+    /* margin-left: 25%;
+    margin-right: 58%; */
+    justify-content: space-between;
+    color: white;
+    margin-top: 20%;
+    padding-bottom: -20%;
+}
+ 
+.img3 img{
+    margin-top: -70%;
+}
+
+/* img 4 */
+.img4{
+    position: relative;
+    background-color:rgb(26, 24, 24)  ;
+    /* margin-left: 25%;
+    margin-right: 58%; */
+    justify-content: space-between;
+    color: white;
+    margin-top: 20%;
+    padding-bottom: -20%;
+}
+ 
+.img4 img{
+    margin-top: -70%;
+}
+
+
+/* img3-4 */
+.img3-4{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-between;
+    color: white;
+    margin-top: 5%;
+}
+ 
+.img5{
+    position: relative;
+    background-color:rgb(26, 24, 24)  ;
+    margin-left: 25%;
+    margin-right: 58%;
+    justify-content: space-between;
+    color: white;
+    margin-top: 20%;
+    padding-bottom: -20%;
+}
+.img5 img{
+    margin-top: -70%;
+}
+/* footer */
+footer{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.footer-logo{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.product{
+    padding-left: 3%;
+    text-align: left;
+}
+
+.product a{
+    color: white;
+    text-decoration: none;
+}
+
+.supports{
+    padding-left: 3%;
+    text-align: left;
+}
+
+.supports a{
+    color: white;
+    text-decoration: none;
+}
+
+.email{
+    padding-left: 3%;
+    text-align: left;
+    margin-bottom: 15%;
+}
+
+.email-btn{
+    display: flex;
+    
+
+}
+
+
+.social-media-icon{
+    display: flex;
+    margin-right: 15%;
+    text-align: left;
+    justify-content: space-around;
+    padding: 2% 15% 0 0;
+    gap: 15%;
+    
+}
+
+.social-media-icon ul li{
+    display: inline-block;
+}
